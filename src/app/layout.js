@@ -1,7 +1,11 @@
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import setup from "@/components/maintenance/setup.json";
+import Maintenance from "@/components/maintenance/Maintenance";
 
 import "./globals.css";
+
+const isMaintenance = setup.maintenanceMode;
 
 export const metadata = {
   title: "Page Title Here",
@@ -13,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header />
-        {children}
+        {isMaintenance ? <Maintenance /> : children}
         <Footer />
       </body>
     </html>

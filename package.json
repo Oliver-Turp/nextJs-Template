@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "imports": "node ./src/css/generateImports.js",
+    "maintenance": "node ./src/components/maintenance/MaintenanceToggle.js",
+    "imports": "node ./src/css/GenerateImports.js",
     "dev": "node ./src/css/generateImports.js && next dev",
     "test:chrome": "npx playwright test --headed --browser=chromium",
     "test:firefox": "npx playwright test --headed --browser=firefox",
