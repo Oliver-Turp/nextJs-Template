@@ -10,5 +10,6 @@
     .main h1 {
         margin: 2cqb 0;
         text-align: center;
+        color: var(--clr-brand-primary);
     }
 }
