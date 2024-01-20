@@ -1,5 +1,5 @@
-import styles from "./Maintenance.module.css";
-import config from "./setup.json";
+import styles from "./styles.module.css";
+import config from "@/components/maintenance/setup.json";
 
 // Format the date to a human-readable format in the user's local time zone
 const formattedTime = new Date(config.maintenanceTime).toLocaleString(
