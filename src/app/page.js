@@ -1,5 +1,10 @@
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: "Template Home Page",
+  description: "This is the home page of my nextjs template.",
+};
+
 
 export default function Home() {
   return (
