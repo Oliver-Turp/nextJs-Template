@@ -4,7 +4,7 @@ This is my Next.js template project.
 
 1. Create your app
 ```bash
-npx create-next-app your-app-name --example https://github.com/Oliver-Turp/nextJs-Template
+npx create-next-app <your-app-name> --example https://github.com/Oliver-Turp/nextJs-Template
 ```
 
 2. Install the dependencies
