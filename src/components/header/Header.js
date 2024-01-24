@@ -28,7 +28,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="/" className={styles.navBtn}>
+            <Link href="/" className={`accentBtnHover ${styles.navBtn}`}>
               Link
             </Link>
           </li>
