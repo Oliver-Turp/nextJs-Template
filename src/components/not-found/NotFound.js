@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import useRedirect from "@/hooks/UseRedirect.js";
-import styles from "./notFound.module.css";
+import styles from "./NotFound.module.css";
 
 export default function NotFound() {
   const { secondsRemaining } = useRedirect("/", 5);

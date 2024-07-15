@@ -1,4 +1,34 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    reactStrictMode: false,
+    images: {
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "cdn.discordapp.com",
+                pathname: "/**",
+            },
+            {
+                protocol: "https",
+                hostname: "avatars.githubusercontent.com",
+                pathname: "/**"
+            },
+            {
+                protocol: "https",
+                hostname: "cdn.jsdelivr.net",
+                pathname: "/**"
+            },
+            {
+                protocol: "https",
+                hostname: "cms.oliverturp.co.uk",
+                pathname: "/**"
+            },
+            {
+                protocol: "http",
+                hostname: "localhost:*",
+                pathname: "/**"
+            },
+        ],
+    },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
