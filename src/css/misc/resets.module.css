@@ -42,3 +42,32 @@ li {
 a {
     color: currentColor;
 }
+
+button {
+    all: unset;
+    display: inline-block;
+    border: none;
+    background: none;
+    font: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}

@@ -12,4 +12,8 @@
     /* COLOURS */
     --clr-brand-primary: var(--clr-red-mid);
     --clr-brand-accent: var(--clr-blue-dark);
+    --bg-dark-mode: var(--clr-mid-black);
+    --font-dark-mode: var(--clr-white);
+    --bg-light-mode: var(--clr-white);
+    --font-light-mode: var(--clr-black);
 }
