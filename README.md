@@ -9,7 +9,7 @@ npx create-next-app <your-app-name> --example https://github.com/Oliver-Turp/nex
 
 2. Install the dependencies
 ```bash
-npm run install
+pnpm run install
 ```
 
 3. Check for updates
@@ -22,7 +22,7 @@ ncu -g
 
 4. run the development server:
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 
