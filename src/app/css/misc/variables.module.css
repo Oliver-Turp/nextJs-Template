@@ -1,8 +1,9 @@
 :root {
     /* LAYOUT */
     --p-max-width: 70ch;
-    --grid-gap: 5rem;
-    --btn-scale: 1.15;
+    --grid-gap: 3vw;
+    --btn-scale: 1.09;
+    --max-width-content: 75vw;
     /* TYPOGRAPHY */
     --base-font-size: 16px;
     --ff-base: var(--ff-montserrat);
@@ -16,4 +17,16 @@
     --font-dark-mode: var(--clr-white);
     --bg-light-mode: var(--clr-white);
     --font-light-mode: var(--clr-black);
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+        --max-width-content: 85vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    :root {
+        --max-width-content: 200vw;
+    }
 }

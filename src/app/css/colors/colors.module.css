@@ -38,4 +38,10 @@
     --clr-dark-grey: hsl(0, 0%, 25%);
 
     --clr-black: hsl(0, 0%, 0%);
+
+    --clr-success: hsl(120, 40%, 46%);
+    --clr-success-hov: hsl(120, 39%, 54%);
+
+    --clr-danger: hsl(2, 65%, 50%);
+    --clr-danger-hov: hsl(2, 65%, 60%);
 }

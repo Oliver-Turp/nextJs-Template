@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const baseFolderPath = "./src/css"; // Replace with your folder path
+const baseFolderPath = "./src/app/css"; // Replace with your folder path
 
 // Step 1: Generate imports for each subfolder
 const subfolders = fs

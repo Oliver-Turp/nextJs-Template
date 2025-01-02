@@ -1,0 +1,21 @@
+.primaryBtnHover {
+    position: relative;
+    color: var(--clr-white);
+    background-color: var(--clr-brand-primary);
+    border-radius: 0.3rem;
+}
+
+.primaryBtnHover::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: var(--clr-brand-primary);
+    border-radius: inherit;
+    transition: all 0.3s ease;
+}
+
+.primaryBtnHover:hover::before {
+    transform: scale(var(--btn-scale));
+    box-shadow: 0 32px 32px rgba(128, 0, 0, .1), 0 16px 16px rgba(128, 0, 0, .1), 0 8px 8px rgba(128, 0, 0, .1), 0 4px 4px rgba(128, 0, 0, .1), 0 2px 2px rgba(128, 0, 0, .1);
+}

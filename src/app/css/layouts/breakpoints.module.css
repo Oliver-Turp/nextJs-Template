@@ -1,0 +1,17 @@
+:root {
+    --breakpoint-mobile: 480px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 1024px;
+    --breakpoint-large-desktop: 1200px;
+}
+
+/* GLOBAL */
+
+/* DESKTOP */
+@media screen and (min-width: 769px) {}
+
+/* TABLET */
+@media screen and (max-width: 768px) {}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {}

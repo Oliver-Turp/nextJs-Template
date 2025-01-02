@@ -2,9 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/assets/*": ["src/assets/*"],
-      "@/components/*": ["src/components/*"],
-      "@/hooks/*": ["src/hooks/*"]
+      "@/assets/*": ["src/app/assets/*"],
+      "@/components/*": ["src/app/components/*"],
+      "@/hooks/*": ["src/app/hooks/*"]
     }
   }
 }

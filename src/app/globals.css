@@ -1,4 +1,4 @@
-@import url('../css/exports.module');
+@import url('./css/exports.module');
 
 body {
     font-family: var(--ff-base);

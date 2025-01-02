@@ -13,13 +13,8 @@
     color: inherit;
 }
 
-/* html {
-  color-scheme: dark light;
-} */
-
 body {
-    min-height: 100cqb;
-    container: body / inline-size;
+    min-height: 100vh;
 }
 
 image, svg, video {
