@@ -1,5 +1,6 @@
 @import url('./css/exports.module');
 
+/* GLOBAL */
 body {
     font-family: var(--ff-base);
     font-size: var(--font-size-small-400);
@@ -38,3 +39,12 @@ h6 {
     font-size: var(--font-size-small-800);
     font-weight: var(--font-weight-light);
 }
+
+/* DESKTOP */
+@media screen and (min-width: 769px) {}
+
+/* TABLET */
+@media screen and (max-width: 768px) {}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {}

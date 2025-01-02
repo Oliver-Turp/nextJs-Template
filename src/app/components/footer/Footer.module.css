@@ -1,5 +1,16 @@
+/* GLOBAL */
+
 /* DESKTOP */
-@container body (width >=550px) {
+@media screen and (min-width: 769px) {}
+
+/* TABLET */
+@media screen and (max-width: 768px) {}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {}
+
+/* CUSTOM */
+@media screen and (min-width: 550px) {
     .footerWrap {
         background-color: black;
         display: flex;
