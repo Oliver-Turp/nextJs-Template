@@ -20,9 +20,9 @@ ncu
 ncu -g
 ```
 
-4. run the development server:
+4. Uncomment line 29 from the .gitignore file
+
+5. run the development server:
 ```bash
 pnpm run dev
 ```
-
-
