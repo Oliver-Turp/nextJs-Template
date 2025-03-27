@@ -1,12 +1,11 @@
 {
   "name": "next-js-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "maintenance": "node ./src/components/maintenance/MaintenanceToggle.js",
     "imports": "node ./src/css/GenerateImports.js",
     "dev": "node ./src/app/css/generateImports.js && next dev",
-    "prod": "next build && next start",
+    "build": "next build",
     "start": "next start -p 3000",
     "test:chrome": "npx playwright test --headed --browser=chromium",
     "test:firefox": "npx playwright test --headed --browser=firefox",

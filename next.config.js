@@ -24,11 +24,16 @@ const nextConfig = {
             },
             {
                 protocol: "http",
-                hostname: "localhost:*",
+                hostname: "localhost",
                 pathname: "/**"
             },
         ],
     },
+        // logging: {
+    //     fetches: {
+    //         fullUrl: true,
+    //     },
+    // },
 };
 
 module.exports = nextConfig;

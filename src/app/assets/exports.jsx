@@ -1,5 +1,4 @@
 // PNGs
-import LogoExample from "./images/PNGs/logo_cyber.png";
 
 // SVGs
 import {
@@ -34,8 +33,15 @@ import {
   tickSVG,
   dropletSVG,
   minusSVG,
+  caretDownSVG,
+  caretUpSVG,
+  stickySVG,
+  chatSVG,
+  collectionSVG,
+  outboundLinkSVG,
+  bugSVG,
 } from "./images/SVGs/bootstrapSVGs";
-
+import LogoExample from "./images/SVGs/rainbow.svg";
 export {
   LogoExample,
   chevronDownSVG,
@@ -69,4 +75,11 @@ export {
   tickSVG,
   dropletSVG,
   minusSVG,
+  caretDownSVG,
+  caretUpSVG,
+  stickySVG,
+  chatSVG,
+  collectionSVG,
+  outboundLinkSVG,
+  bugSVG,
 };
