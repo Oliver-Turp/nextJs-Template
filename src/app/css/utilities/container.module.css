@@ -1,9 +1,9 @@
 .container[data-width="narrow"] {
-    --max-width: 50cqi
+    --max-width: 50vw
 }
 
 .container[data-width="wide"] {
-    --max-width: 75cqi
+    --max-width: 75vw
 }
 
 .container[data-width="full"] {

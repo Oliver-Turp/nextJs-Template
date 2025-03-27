@@ -12,7 +12,6 @@
 /* CUSTOM */
 @media screen and (min-width: 550px) {
     .headerWrap {
-        container: headerWrap / inline-size;
         display: flex;
         height: 10cqb;
         max-height: 10cqb;

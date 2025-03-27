@@ -1,14 +1,10 @@
 "use client";
-import { useEffect } from "react";
-import useRedirect from "@/hooks/UseRedirect.js";
+import useRedirect from "@/hooks/useRedirect.js";
+
 import styles from "./NotFound.module.css";
 
 export default function NotFound() {
   const { secondsRemaining } = useRedirect("/", 5);
-
-  useEffect(() => {
-    console.log("on 404 page");
-  }, [secondsRemaining]);
 
   return (
     <div className={styles.errorWrap}>

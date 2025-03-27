@@ -33,11 +33,24 @@
 
     --clr-white: hsl(0, 0%, 100%);
 
+    --clr-grey-blue-dark: hsl(210, 22%, 29%);
+    --clr-grey-blue-mid: hsl(208, 18%, 36%);
+
     --clr-light-grey: hsl(0, 0%, 75%);
     --clr-grey: hsl(0, 0%, 50%);
     --clr-dark-grey: hsl(0, 0%, 25%);
 
+    --clr-header-grey: hsl(219, 15%, 18%);
+    --clr-body-grey: hsl(214, 15%, 21%);
+    --clr-accent-blue: hsl(200, 100%, 40%);
+    --clr-accent-blue-hov: hsl(200, 100%, 47%);
+    --clr-alt-grey: hsl(218, 15%, 15.5%);
+
     --clr-black: hsl(0, 0%, 0%);
+    --clr-mid-black: hsl(216, 15%, 13%);
+
+    --clr-discord: hsl(235, 86%, 65%);
+    --clr-discord-hover: hsl(235, 86%, 75%);
 
     --clr-success: hsl(120, 40%, 46%);
     --clr-success-hov: hsl(120, 39%, 54%);

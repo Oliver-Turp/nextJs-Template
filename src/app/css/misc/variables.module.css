@@ -27,6 +27,6 @@
 
 @media screen and (max-width: 480px) {
     :root {
-        --max-width-content: 200vw;
+        --max-width-content: 90%;
     }
 }

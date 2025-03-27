@@ -1,9 +1,23 @@
 @import url('./css/exports.module');
 
 /* GLOBAL */
-body {
+nextjs-portal {
+    display: none;
+}
+
+* {
     font-family: var(--ff-base);
+}
+
+html {
+    font-size: var(--base-font-size);
+}
+
+body {
+    background-color: var(--bg-dark-mode);
+    color: var(--font-dark-mode);
     font-size: var(--font-size-small-400);
+    font-size: var(--base-font-size);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,12 +45,12 @@ h4 {
 }
 
 h5 {
-    font-size: var(--font-size-small-900);
+    font-size: var(--font-size-large-400);
     font-weight: var(--font-weight-light);
 }
 
 h6 {
-    font-size: var(--font-size-small-800);
+    font-size: var(--font-size-large-300);
     font-weight: var(--font-weight-light);
 }
 
