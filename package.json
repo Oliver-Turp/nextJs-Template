@@ -12,12 +12,12 @@
     "test:safari": "npx playwright test --headed --browser=webkit"
   },
   "dependencies": {
-    "next": "15.2.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "15.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.51.1"
+    "@playwright/test": "^1.55.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
