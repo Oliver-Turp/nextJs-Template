@@ -5,6 +5,7 @@
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
+    min-height: 80cqb;
 }
 
 .errorContainer {
@@ -14,6 +15,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    text-align: center;
 }
 
 .errorContainer h1 {

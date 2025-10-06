@@ -1,7 +1,4 @@
 /* GLOBAL */
-
-/* DESKTOP */
-@media screen and (min-width: 769px) {
     .main {
         min-height: 80cqb;
         display: flex;
@@ -14,10 +11,20 @@
         text-align: center;
         color: var(--clr-brand-primary);
     }
-}
+/* DESKTOP */
+@media screen and (min-width: 769px) {}
 
 /* TABLET */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .main > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main h1 {
+        font-size: var(--font-size-large-700);
+    }
+}
 
 /* MOBILE */
 @media screen and (max-width: 480px) {}

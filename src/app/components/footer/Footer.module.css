@@ -1,16 +1,4 @@
 /* GLOBAL */
-
-/* DESKTOP */
-@media screen and (min-width: 769px) {}
-
-/* TABLET */
-@media screen and (max-width: 768px) {}
-
-/* MOBILE */
-@media screen and (max-width: 480px) {}
-
-/* CUSTOM */
-@media screen and (min-width: 550px) {
     .footerWrap {
         background-color: black;
         display: flex;
@@ -39,4 +27,17 @@
         padding: 1.5cqb 3cqi;
         white-space: nowrap;
     }
+    
+/* DESKTOP */
+@media screen and (min-width: 769px) {}
+
+/* TABLET */
+@media screen and (max-width: 768px) {}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {}
+
+/* CUSTOM */
+@media screen and (min-width: 550px) {
+
 }
